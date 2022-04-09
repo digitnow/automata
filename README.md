@@ -31,15 +31,14 @@ $ cd dfa
 // eller symboler fra input, 
 // 
 // lage fil dfa.go, definer package og funksjon Delta
+```
+```golang
    func Delta(currentState string, inputSymbol string) string { return “” }
+```
 // arbeide med go test inntill funksjonen tilfredstiller spesifikasjon til M1, 
 // for eksempel
 ```
 Algoritmen for simulering av et automat må starte med å definere input streng og start-tilsand, og lage en hovedløkke, hvor det avleses et symbol av gangen fra input, inntil det er ingen symboler i input igjen. Inne i løkken må man sjekke tilstand (med “if” eller “switch”) og ta en beslutning basert på en eksisterende definisjon av δ (funksjon Delta, som definerer alle overganger fra en tilstand til en annen, basert på symbolet i input streng).
-
-```golang
-func main() {}
-```
 
 ## Vokabular
 
