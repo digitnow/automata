@@ -35,6 +35,7 @@ $ cd dfa
 ```golang
    func Delta(currentState string, inputSymbol string) string { return “” }
 ```
+```
 // arbeide med go test inntill funksjonen tilfredstiller spesifikasjon til M1, 
 // for eksempel
 ```
